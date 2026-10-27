@@ -1,0 +1,37 @@
+{
+  "title": "Essayer FRP Manager : un vrai panel frp dans votre navigateur",
+  "description": "Démarrer frps et frpc, ouvrir un port public vers une page web locale et ajouter une deuxième instance, avec le vrai panel FRP Manager (image Docker officielle), en 10 minutes.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh",
+      "foreground": "wait.sh"
+    },
+    "steps": [
+      {
+        "title": "Ouvrir le panel",
+        "text": "step1.md"
+      },
+      {
+        "title": "Démarrer frps et frpc",
+        "text": "step2.md",
+        "verify": "verify-running.sh"
+      },
+      {
+        "title": "Ouvrir un port public",
+        "text": "step3.md",
+        "verify": "verify-port.sh"
+      },
+      {
+        "title": "Ajouter une deuxième instance",
+        "text": "step4.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
