@@ -13,4 +13,4 @@ Les autres façons d'installer (script, apt, Docker en mode hôte) sont dans le 
 
 - Site : https://frp-manager.org/fr/
 - Code source : https://github.com/Gogowwww/frp-manager
-- Démo en ligne sans machine : https://frp-manager.org/fr/demo/
+- Démo en ligne sans machine : https://frp-manager.org/demo/
